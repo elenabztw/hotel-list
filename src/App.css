@@ -1,0 +1,132 @@
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  background-color: #f7f9fc;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.hotels-wrapper {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+h1 {
+  letter-spacing: 2px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #8f8f8f;
+  padding: 1rem 6rem;
+  border-radius: 8px;
+  margin: 2rem auto 1rem;
+  display: inline-block;
+}
+
+.highlight {
+  color: #0970a3;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #003b58;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.card-content {
+  margin: 20px auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: block;
+  max-width: 600px;
+  text-align: center;
+}
+
+.card-content p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.container img {
+  display: block;
+  margin: 1rem auto;
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(135deg, #0071c2, #005b9f);
+  padding: 10px 20px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #005b9f, #003b58);
+}
+
+.btnShow {
+  display: inline-block;
+  background: transparent;
+  border: none;
+  color: #0071c2;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 8px;
+  text-decoration: underline;
+}
+
+.btnShow:hover {
+  color: #005b9f;
+}
+
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+    padding: 0.8rem 1.5rem;
+  }
+  h2 {
+    font-size: 1.1rem;
+  }
+  .card-content p {
+    font-size: 0.9rem;
+  }
+  .btn {
+    padding: 8px 16px;
+  }
+}
