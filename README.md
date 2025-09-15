@@ -1,3 +1,51 @@
+# List of Hotels (React App)
+
+A simple React application to display a list of hotels with the ability to view/hide full descriptions and remove individual items.
+
+---
+
+## Features
+
+* Display a list of hotels in New York  
+* `Remove` button deletes an individual hotel  
+* `Show more / Show less` button toggles the description text  
+* `Delete all` button clears the entire list  
+
+---
+
+## 🛠️ Technologies
+
+| File           | Description                                             |
+|----------------|---------------------------------------------------------|
+| `App.js`       | Main React app logic                                     |
+| `App.css`      | Styling for the app                                      |
+| `data.js`      | Hotel data array                                         |
+
+---
+
+## Installation & Run
+
+# Clone the repository
+git clone https://github.com/elenabztw/list-of-hotels.git
+cd list-of-hotels
+
+# Install dependencies
+npm install
+
+# Start the app
+npm start
+
+**Usage**
+On app start, a list of hotels is displayed.
+
+Click Show more to view the full description.
+
+Click Remove to delete a hotel.
+
+Click Delete all to clear the entire list.
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
