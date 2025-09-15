@@ -50,19 +50,6 @@ Handles user actions like clicks on buttons:
 <button onClick={() => removeHotel(id)}>Remove</button>
 <button className="btnShow" onClick={() => showTextClick(element)}>
 
-
-**State Updates and Re-rendering**
-
-setHotel and setShowText update state, causing React to re-render the component automatically with updated data.
-
-Example:
-
-const removeHotel = (id) => {
-  const newHotels = hotels.filter(hotel => hotel.id !== id);
-  setHotel(newHotels)
-}
-
-
 **Array Mapping (map)**
 
 Iterates over the hotels array to render each hotel dynamically:
@@ -84,22 +71,6 @@ Shows either the full description or a truncated version based on showMore:
 {showMore ? description : description.substring(0, 160) + " ..."}
 
 
-**Dynamic Attributes & Keys**
-
-key={id} ensures React can efficiently update and re-render lists.
-
-className and other attributes are dynamically assigned for styling.
-
-**Inline Functions**
-
-Functions are passed directly to event handlers:
-
-onClick={() => showTextClick(element)}
-
-
-**Component Composition (basic)**
-
-The app uses multiple nested divs and elements, showing a structured UI rendered from React.
 
 **Summary:**
 This app demonstrates functional components, useState for state management, event handling, dynamic rendering with .map(), conditional rendering, and React’s declarative UI approach.
