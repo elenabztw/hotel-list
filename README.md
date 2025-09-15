@@ -1,6 +1,6 @@
 # List of Hotels (React App)
 
-A simple React application to display a list of hotels with the ability to view/hide full descriptions and remove individual items.
+A simple React application to display a list of hotels with the ability to view/hide full descriptions and remove individual items from array and emptying the entire array.
 
 ---
 
