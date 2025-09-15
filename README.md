@@ -13,7 +13,7 @@ A simple React application to display a list of hotels with the ability to view/
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 
 | File           | Description                                             |
 |----------------|---------------------------------------------------------|
@@ -23,19 +23,7 @@ A simple React application to display a list of hotels with the ability to view/
 
 ---
 
-## Installation & Run
-
-# Clone the repository
-git clone https://github.com/elenabztw/list-of-hotels.git
-cd list-of-hotels
-
-# Install dependencies
-npm install
-
-# Start the app
-npm start
-
-**Usage**
+## Usage
 On app start, a list of hotels is displayed.
 
 Click Show more to view the full description.
