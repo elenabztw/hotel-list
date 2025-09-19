@@ -86,6 +86,7 @@ Click Remove to delete a hotel.
 
 Click Delete all to clear the entire list.
 
+<img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/c9c24fe1-39b8-4009-9968-ad0a7fb6b287" />
 
 
 # React + Vite
